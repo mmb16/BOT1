@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parse.loginsample.withdispatchactivity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name="com.parse.loginsample.withdispatchactivity.SampleApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.DispatchActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.parse.ui.ParseLoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <meta-data
+                android:name="com.parse.ui.ParseLoginActivity.PARSE_LOGIN_ENABLED"
+                android:value="true" />
+            <meta-data
+                android:name="com.parse.ui.ParseLoginActivity.PARSE_LOGIN_EMAIL_AS_USERNAME"
+                android:value="true" />
+            <meta-data
+                android:name="com.parse.ui.ParseLoginActivity.FACEBOOK_LOGIN_ENABLED"
+                android:value="true" />
+            <meta-data
+                android:name="com.parse.ui.ParseLoginActivity.TWITTER_LOGIN_ENABLED"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/parse_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/parse_client_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.MyProfile"
+            android:label="@string/title_activity_my_profile" >
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.Pay"
+            android:label="@string/title_activity_pay" >
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.Buy"
+            android:label="@string/title_activity_buy" >
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.Split"
+            android:label="@string/title_activity_split" >
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.Requests"
+            android:label="@string/title_activity_requests" >
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.InviteFriends"
+            android:label="@string/title_activity_invite_friends" >
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.BanksCards"
+            android:label="@string/title_activity_banks_cards" >
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.TransactionHistory"
+            android:label="@string/title_activity_transaction_history" >
+        </activity>
+        <activity
+            android:name="com.parse.loginsample.withdispatchactivity.PendingTransactions"
+            android:label="@string/title_activity_pending_transactions" >
+        </activity>
+    </application>
+
+</manifest>

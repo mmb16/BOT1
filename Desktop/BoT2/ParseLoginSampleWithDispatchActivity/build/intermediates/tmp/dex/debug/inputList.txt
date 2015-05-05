@@ -1,0 +1,12 @@
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/classes/debug
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-f845f55b9c4bb722b8dd233af75772f8af3255d2.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.9.1-94d6cb38d454479c543baf300e7ac7bb08dfc925.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/classes-ec301f55ec8724d61153999d38d67061282a5036.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/classes-f8a2fa872613991f106c2d76a61fd30b29240bee.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/classes-703356963b5ae11a12031ac787e3340409218877.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-679f396c0f5769f5bf78dcbb8f6fd01fad514828.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-387b66895e1d4576ebcc414b29fd3f0eff1f37d8.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/classes-c7c8b20fa6640a4b16992bc3018246ca928ceec4.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/classes-bd34c23de7c558a8db7ed685dde40c5e2be7dc2c.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/Parse-1.9.1-0f6fc09486cf7cb802f8e130a0c89cb4db1cc003.jar
+/Users/MohB/Desktop/BoT2/ParseLoginSampleWithDispatchActivity/build/intermediates/pre-dexed/debug/classes-c67c4bc7b578673e17f4ced199046bb24d052642.jar
